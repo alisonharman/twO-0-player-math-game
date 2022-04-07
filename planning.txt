@@ -1,0 +1,47 @@
+1. Extract Nouns for Classes
+
+Game
+Players
+Questions
+
+2. Rolse for each Class / Noun
+
+GAME: start, manage turns, manage points, show who is winner
+
+• Game will have 2 players 
+
+• Game will start with a question for player 1.
+
+• Player 1 will answer the question.
+
+• If question is correct,
+"YES! You are correct" will appear AND score will increase.
+
+• If question is incorrect, "Seriously? No!" will appear AND score will decrease.
+
+• Players then switch if player is still alive
+
+• Game continues until a player reaches score of "0", "Player _ wins with a score of _
+
+• Game ends, "Good bye!"
+
+
+
+PLAYERS: manage players by keeping track of current players and score
+
+• set / initialize player id/number
+• set score
+
+• does the player lose their turns
+
+• is the player still alive
+
+
+QUESTIONS: will manage questions and correct answer and show the player the questions
+
+• show the question
+
+• question will be random (rand) math question by picking two numbers between 1 & 20 "What does _ plus _ equal"
+
+• question will hold correct answer
+

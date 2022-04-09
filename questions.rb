@@ -7,8 +7,8 @@ class Question
   def initialize()
     @number1 = (rand(1..20)) #creates the random num between 1 and 20
     @number2 = (rand(1..20))
-    @question = "What does #{number1} plus #{number2} equal?"
-    @answer = num1 + num2
+    @question = "What does #{@number1} plus #{@number2} equal?"
+    @answer = number1 + number2
   end
 
   def answer
